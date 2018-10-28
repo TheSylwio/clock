@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Quicksand" rel="stylesheet">
+    <title>Zegar JS</title>
+</head>
+<body onload="time()">
+    <div class="container">
+        <header>
+            <h1>time's flyin'...</h1>
+        </header>
+        <section>
+            <header><h3>What time is it?</h3></header>
+            <article>
+                <div class="clock">
+                    <div class="card first-card">
+                        <output id="first"></output>
+                    </div>
+                    <div class="card second-card">
+                        <output id="second"></output>
+                    </div>
+                    <span id="span">:</span>
+                    <div class="card third-card">
+                        <output id="third"></output>
+                    </div>
+                    <div class="card" id="fourth-card">
+                        <output id="fourth"></output>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    <script src="time.js"></script>
+</body>
+</html>

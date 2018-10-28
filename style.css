@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #f93943;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    pointer-events: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin: 0;
+}
+
+h1 {
+    font-size:70px;
+}
+
+h3 {
+    font-size: 40px;
+}
+.container {
+    margin: 0 auto;
+    width:700px;
+    height: 600px;
+}
+
+.container header {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0 auto;
+    width:600px;
+    height:250px;
+    border-radius: 1%;
+    border:1rem solid black;
+    color:black;
+    background: #eee;
+    font-size:110px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 2%;
+    height:70%;
+    width:20%;
+    margin:2%;
+}
+
+.card-change{
+    animation: zmiana 3s linear backwards;
+}
+
+.card:first-child, .card:last-child{
+    margin: 0;
+}
+
+span {
+    position: absolute;
+}
+
+.colon{
+    display: none;
+}
+
+@keyframes zmiana{
+    from{
+        transform: scale(1),rotate(0deg);
+    }
+    to{
+        transform: scale(0),rotate(360deg);
+    }
+}
