@@ -1,2 +1,2 @@
-#New and better clock!
-######Created by Sylwester Gorol
+## New and better clock!
+###### Created by Sylwester Gorol
