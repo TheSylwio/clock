@@ -1,2 +1,2 @@
-<h1>New and better clock!</h1>
-<small>Created by Sylwester Gorol</small>
+#New and better clock!
+######Created by Sylwester Gorol
